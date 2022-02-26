@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title> 
+    
+</head>
+<body style ="background-color: aqua;">
+     <center>
+        <table border="4">
+            <thead>
+                <tr>
+                    <th>First Name :</th>
+                    <td><input type="text" name="fname" id="fname" size="50"></td>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Last Name :</th>
+                    <td><input type="text" name="lname" id="lname" size="50"></td>
+                </tr>
+                <tr>
+                    <th>Email :</th>
+                    <td><input type="text" name="email" id="email" size="50"></td>
+                </tr>
+                <tr>
+                    <th>Age :</th>
+                    <td><input type="text" name="age" id="age" size="50"></td>
+                </tr>
+                <tr>
+                    <th>City :</th> 
+                     <td><input type="text" name="city" id="city" size="50"></td>
+                    <tr>
+                        <th>Mobile NO :</th>
+                        <td><input type="text" name="mobile" id="mobile" size="50"></td>                         
+                    </tr>
+                    <tr>
+                        <th>Course :</th>
+                        <td><input type="text" name="course" id="course" size="50"> </td> 
+                    </tr>
+                </tr>
+                <tr id="btn" >
+                    <td colspan="2"><input type="button" name="button" id="btn" value="Add"  onclick="AddRow()" ></td>
+                </tr>
+            </tbody>
+        </table> 
+        <br>
+        <hr> 
+        <table border="4" id="show">
+            <thead>
+                <tr>
+                    <td>First Name</td>
+                    <td>Last Name</td>
+                    <td>Email</td>
+                    <td>age</td>
+                    <td>City</td>
+                    <td>Mobile No</td>
+                    <td>Course</td>
+                </tr> 
+            </thead>
+        </table>
+       </hr>
+       </center>
+    <script src="app.js"></script>
+</body>
+</html>
